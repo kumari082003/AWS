@@ -1,12 +1,110 @@
 name: task04
-build_projects_mapping:
-  nodejs: app
 locks:
   modification_lock:
-    last_modification_date: '2025-03-12T11:46:11Z'
+    last_modification_date: '2025-03-12T13:24:56Z'
     is_locked: false
     initiator: kumari_sakshi
 events:
+- operation: deploy
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185433
+  deploy_name: task04
+  time_start: '2025-03-12T18:54:45Z'
+  time_end: '2025-03-12T18:54:56Z'
+  duration_sec: 11.134
+  status: succeeded
+  rollback_on_error: false
+- operation: build
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185433
+  time_start: '2025-03-12T18:54:33Z'
+  time_end: '2025-03-12T18:54:37Z'
+  duration_sec: 4.157
+  status: succeeded
+- operation: upload
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185433
+  time_start: '2025-03-12T18:54:35Z'
+  time_end: '2025-03-12T18:54:37Z'
+  duration_sec: 1.61
+  status: succeeded
+- operation: package_meta
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185433
+  time_start: '2025-03-12T18:54:35Z'
+  time_end: '2025-03-12T18:54:35Z'
+  duration_sec: 0.004
+  status: succeeded
+- operation: assemble
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185433
+  time_start: '2025-03-12T18:54:34Z'
+  time_end: '2025-03-12T18:54:35Z'
+  duration_sec: 1.18
+  status: succeeded
+- operation: assemble_node
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185433
+  time_start: '2025-03-12T18:54:34Z'
+  time_end: '2025-03-12T18:54:35Z'
+  duration_sec: 1.14
+  status: succeeded
+- operation: test
+  initiator: kumari_sakshi
+  time_start: '2025-03-12T18:54:34Z'
+  time_end: '2025-03-12T18:54:34Z'
+  duration_sec: 0.0
+  status: succeeded
+- operation: deploy
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185155
+  deploy_name: task04
+  time_start: '2025-03-12T18:52:17Z'
+  time_end: '2025-03-12T18:52:28Z'
+  duration_sec: 11.443
+  status: failed
+  rollback_on_error: false
+- operation: build
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185155
+  time_start: '2025-03-12T18:51:55Z'
+  time_end: '2025-03-12T18:51:59Z'
+  duration_sec: 4.121
+  status: succeeded
+- operation: upload
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185155
+  time_start: '2025-03-12T18:51:58Z'
+  time_end: '2025-03-12T18:51:59Z'
+  duration_sec: 1.686
+  status: succeeded
+- operation: package_meta
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185155
+  time_start: '2025-03-12T18:51:58Z'
+  time_end: '2025-03-12T18:51:58Z'
+  duration_sec: 0.0
+  status: succeeded
+- operation: assemble
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185155
+  time_start: '2025-03-12T18:51:57Z'
+  time_end: '2025-03-12T18:51:58Z'
+  duration_sec: 1.143
+  status: succeeded
+- operation: assemble_node
+  initiator: kumari_sakshi
+  bundle_name: task04_250312.185155
+  time_start: '2025-03-12T18:51:57Z'
+  time_end: '2025-03-12T18:51:58Z'
+  duration_sec: 1.129
+  status: succeeded
+- operation: test
+  initiator: kumari_sakshi
+  time_start: '2025-03-12T18:51:57Z'
+  time_end: '2025-03-12T18:51:57Z'
+  duration_sec: 0.0
+  status: succeeded
 - operation: deploy
   initiator: kumari_sakshi
   bundle_name: task04_250312.171525
@@ -309,9 +407,16 @@ events:
   status: succeeded
 latest_deploy:
   initiator: kumari_sakshi
-  bundle_name: task04_250312.171525
+  bundle_name: task04_250312.185433
   deploy_name: task04
-  time_start: '2025-03-12T17:16:07Z'
-  time_end: '2025-03-12T17:16:11Z'
-  duration_sec: 3.238
+  time_start: '2025-03-12T18:54:45Z'
+  time_end: '2025-03-12T18:54:56Z'
+  duration_sec: 11.134
   is_succeeded: true
+build_projects_mapping:
+  nodejs: app
+lambdas:
+  sqs_handler:
+    runtime: nodejs
+  sns_handler:
+    runtime: nodejs

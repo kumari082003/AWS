@@ -30,3 +30,35 @@ Set SDCT_CONF:
 Unix: export SDCT_CONF="C:\Users\kumari_sakshi\Desktop\AWS\task03\.syndicate-config-dev"
 Windows: setx SDCT_CONF C:\Users\kumari_sakshi\Desktop\AWS\task03\.syndicate-config-dev
 2025-03-12 14:54:18,711 [INFO] USER:kumari_sakshi helper.py:330:timed LOG: Stage config, elapsed time: 0:00:02.070247
+2025-03-12 15:46:03,931 [INFO] USER:kumari_sakshi generate.py:72:project LOG: Project name: task04
+2025-03-12 15:46:03,931 [INFO] USER:kumari_sakshi generate.py:79:project LOG: Project path: C:\Users\kumari_sakshi\Desktop\AWS
+2025-03-12 15:46:03,950 [INFO] USER:kumari_sakshi project.py:77:generate_project_structure LOG: Project task04 folder has been successfully created.
+2025-03-12 15:46:03,950 [INFO] USER:kumari_sakshi helper.py:330:timed LOG: Stage project, elapsed time: 0:00:00.019542
+2025-03-12 15:47:47,415 [INFO] USER:kumari_sakshi s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:47:47,415 [INFO] USER:kumari_sakshi s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:47:47,415 [INFO] USER:kumari_sakshi helper.py:525:convert LOG: Stripping run_id:JAP-11,run_type:stm,type:user,user_id:39153c03 from "," a bit..
+2025-03-12 15:47:47,415 [INFO] USER:kumari_sakshi helper.py:529:convert LOG: Converting: run_id:JAP-11,run_type:stm,type:user,user_id:39153c03 to dict..
+2025-03-12 15:47:47,415 [INFO] USER:kumari_sakshi helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-11', 'run_type': 'stm', 'type': 'user', 'user_id': '39153c03'}
+2025-03-12 15:47:49,851 [WARNING] USER:kumari_sakshi generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2025-03-12 15:47:49,852 [WARNING] USER:kumari_sakshi generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Users\kumari_sakshi\Desktop\AWS\task04\.syndicate-config-dev
+2025-03-12 15:47:49,860 [INFO] USER:kumari_sakshi generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Users\kumari_sakshi\Desktop\AWS\task04\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Users\kumari_sakshi\Desktop\AWS\task04\.syndicate-config-dev
+2025-03-12 15:47:49,863 [INFO] USER:kumari_sakshi helper.py:330:timed LOG: Stage config, elapsed time: 0:00:02.447960
+2025-03-12 18:43:21,256 [INFO] USER:kumari_sakshi generate.py:72:project LOG: Project name: task04
+2025-03-12 18:43:21,257 [INFO] USER:kumari_sakshi generate.py:79:project LOG: Project path: C:\Users\kumari_sakshi\Desktop\AWS
+2025-03-12 18:43:21,270 [INFO] USER:kumari_sakshi project.py:77:generate_project_structure LOG: Project task04 folder has been successfully created.
+2025-03-12 18:43:21,270 [INFO] USER:kumari_sakshi helper.py:330:timed LOG: Stage project, elapsed time: 0:00:00.013814
+2025-03-12 18:44:08,369 [INFO] USER:kumari_sakshi s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 18:44:08,369 [INFO] USER:kumari_sakshi s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 18:44:08,370 [INFO] USER:kumari_sakshi helper.py:525:convert LOG: Stripping run_id:JAP-11,run_type:stm,type:user,user_id:39153c03 from "," a bit..
+2025-03-12 18:44:08,370 [INFO] USER:kumari_sakshi helper.py:529:convert LOG: Converting: run_id:JAP-11,run_type:stm,type:user,user_id:39153c03 to dict..
+2025-03-12 18:44:08,370 [INFO] USER:kumari_sakshi helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-11', 'run_type': 'stm', 'type': 'user', 'user_id': '39153c03'}
+2025-03-12 18:44:10,592 [WARNING] USER:kumari_sakshi generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2025-03-12 18:44:10,594 [WARNING] USER:kumari_sakshi generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Users\kumari_sakshi\Desktop\AWS\task04\.syndicate-config-dev
+2025-03-12 18:44:10,600 [INFO] USER:kumari_sakshi generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Users\kumari_sakshi\Desktop\AWS\task04\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Users\kumari_sakshi\Desktop\AWS\task04\.syndicate-config-dev
+2025-03-12 18:44:10,603 [INFO] USER:kumari_sakshi helper.py:330:timed LOG: Stage config, elapsed time: 0:00:02.232309
