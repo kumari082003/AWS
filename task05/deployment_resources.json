@@ -19,10 +19,7 @@
             "dynamodb:Query",
             "dynamodb:PutItem",
             "dynamodb:Batch*",
-            "dynamodb:DeleteItem",
-            "AWSLambdaBasicExecutionRole",
-            "AWSLambdaRole",
-            "AmazonAPIGatewayAdministrator"
+            "dynamodb:DeleteItem"
           ],
           "Effect": "Allow",
           "Resource": "*"
